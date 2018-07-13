@@ -6,9 +6,9 @@
 void errMsg(const char* format,...);
 
 #ifdef __GNUC__
-#define NORETURN __attribute__ ((__noreturn__))
+    #define NORETURN  __attribute__ ((__noreturn__))
 #else
-#define NORETURN
+    #define NORETURN
 #endif
 
 

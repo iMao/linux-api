@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "uxlib.h"
+#include "tlpi_hdr.h"
 
 int main()
 {
@@ -11,5 +12,5 @@ int main()
 
 
 
-    return 0;
+    return EXIT_SUCCESS;
 }
